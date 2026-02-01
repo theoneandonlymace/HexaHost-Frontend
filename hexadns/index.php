@@ -54,7 +54,7 @@ $api_base = '/api';
         .nav-left { display: flex; align-items: center; gap: 1.5rem; }
         .logo { font-family: var(--font-logo); font-size: 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
         .logo-icon { width: 40px; height: 40px; color: var(--primary); }
-        .logo span { background: linear-gradient(135deg, var(--primary), var(--neon-blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .logo span { background: linear-gradient(135deg, var(--primary), var(--neon-blue)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
         .status-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(50,251,162,0.1); border: 1px solid rgba(50,251,162,0.3); padding: 0.4rem 0.875rem; border-radius: 2rem; font-size: 0.8rem; font-weight: 500; color: var(--success); }
         .status-dot { width: 8px; height: 8px; background: var(--success); border-radius: 50%; animation: pulse 2s infinite; }
         @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
@@ -70,7 +70,7 @@ $api_base = '/api';
         .hero-icon { width: 100px; height: 100px; margin: 0 auto 1.5rem; color: var(--primary); animation: float 3s ease-in-out infinite; }
         @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
         .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; margin-bottom: 1rem; }
-        .highlight { background: linear-gradient(135deg, var(--primary), var(--neon-blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .highlight { background: linear-gradient(135deg, var(--primary), var(--neon-blue)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
         .hero p { font-size: 1.1rem; color: var(--text-dim); margin-bottom: 2rem; }
         
         /* Tools Section */
